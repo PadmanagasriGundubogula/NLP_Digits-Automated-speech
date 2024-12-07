@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "plyconfig.json": "jsonc"
+    },
+    "cSpell.words": [
+        "argmax",
+        "Conv",
+        "Convolutional",
+        "crossentropy",
+        "endswith",
+        "keras",
+        "librosa",
+        "listdir",
+        "LSTM",
+        "mfcc",
+        "numpy",
+        "relu",
+        "sklearn",
+        "softmax",
+        "timesteps"
+    ]
+}
