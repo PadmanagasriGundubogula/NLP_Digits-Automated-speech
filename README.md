@@ -173,14 +173,19 @@ model = load_model("best_model.keras")
 
 # Visualize Predictions
 visualize_predictions(data_path, model, file_names, test_files)
+![WhatsApp Image 2024-12-07 at 18 25 07_c61b7553](https://github.com/user-attachments/assets/fbc6a59f-9bc2-46b8-a0ba-f01792ebca21)
+
 
 # Step 4: Display Evaluation Metrics (Optional)
 y_pred = model.predict(X_test)
 y_pred_class = np.argmax(y_pred, axis=1)
 
+
 # Classification report
 print("\n--- Classification Report ---")
 print(classification_report(np.argmax(y_test, axis=1), y_pred_class))
+![WhatsApp Image 2024-12-07 at 18 24 27_f4bff283](https://github.com/user-attachments/assets/ec88942f-2a49-4157-b781-21a203280171)
+
 
 # Confusion matrix
 print("\n--- Confusion Matrix ---")
@@ -209,6 +214,7 @@ weighted avg       0.90      0.90      0.90       220
  [ 3  0 50  4]
  [ 1  0  3 38]]
 
+![WhatsApp Image 2024-12-07 at 18 27 58_ac398b37](https://github.com/user-attachments/assets/328bb8cb-62f8-4fa7-aa88-b4eb9ba48e47)
 
  Notes
 The project uses MFCC for feature extraction from audio.
