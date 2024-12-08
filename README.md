@@ -220,4 +220,4 @@ weighted avg       0.90      0.90      0.90       220
 The project uses MFCC for feature extraction from audio.
 The model is a 1D Convolutional Neural Network designed for digit recognition from spoken digits.
 SpaCy is used for optional text analysis if needed (e.g., processing speech-to-text results).
-The model's best weights are saved in the trained_models/ folder as best_model.keras.
+The model's best weights are saved in the trained_models/ folder as best_model.keras..
